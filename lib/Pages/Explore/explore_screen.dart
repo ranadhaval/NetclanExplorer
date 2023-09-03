@@ -157,23 +157,23 @@ class _ExploreState extends State<Explore> with SingleTickerProviderStateMixin {
               children: [
                 _tabBarbody(
                   image: [
-                    Strings.personalImage1,
-                    Strings.personalImage2,
-                    Strings.personalImage3,
-                    Strings.personalImage4
+                    personalImage1,
+                    personalImage2,
+                    personalImage3,
+                    personalImage4
                   ],
                 ),
                 _tabBarbody(image: [
-                  Strings.businessImage1,
-                  Strings.businessImage2,
-                  Strings.businessImage3,
-                  Strings.businessImage4
+                  businessImage1,
+                  businessImage2,
+                  businessImage3,
+                  businessImage4
                 ]),
                 _tabBarbody(image: [
-                  Strings.merchantImage1,
-                  Strings.merchantImage2,
-                  Strings.merchantImage3,
-                  Strings.merchantImage4
+                  merchantImage1,
+                  merchantImage2,
+                  merchantImage3,
+                  merchantImage4
                 ], isMerchant: true),
               ]),
         )
@@ -441,7 +441,7 @@ class _ExploreState extends State<Explore> with SingleTickerProviderStateMixin {
                           borderRadius: BorderRadius.circular(
                               Constant.serviceTileImageBorderCorner),
                           image: DecorationImage(
-                              fit: BoxFit.cover, image: NetworkImage(image))),
+                              fit: BoxFit.cover, image: AssetImage(image))),
                     ),
                   ),
                 ),

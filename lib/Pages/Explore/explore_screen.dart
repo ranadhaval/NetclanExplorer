@@ -274,7 +274,7 @@ class _ExploreState extends State<Explore> with SingleTickerProviderStateMixin {
         left: Constant.serviceTileBottomPadding,
       ),
       child: Container(
-        height: MediaQuery.of(context).size.height / Constant.serviceTileHeight,
+        // height: MediaQuery.of(context).size.height / Constant.serviceTileHeight,
         width: MediaQuery.of(context).size.width,
         decoration: BoxDecoration(
           borderRadius: BorderRadius.circular(Constant.serviceTileBorderCorner),
